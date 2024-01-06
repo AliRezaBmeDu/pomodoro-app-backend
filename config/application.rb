@@ -28,7 +28,7 @@ module PomodoroAppBackend
     # Common ones are `templates`, `generators`, or `middleware`, for example.
     config.autoload_lib(ignore: %w(assets tasks))
 
-    Dotenv::Railtie.load
+    Dotenv::Railtie.load #Activating the env variables from the .env
 
     # Configuration for the application, engines, and railties goes here.
     #
