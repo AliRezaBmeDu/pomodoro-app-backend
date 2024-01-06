@@ -7,7 +7,7 @@ gem 'rails', '~> 7.1.2'
 
 gem 'mongoid'
 
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv-rails', groups: %i[development test]
 
 # rubocop
 gem 'rubocop', '>= 1.0', '< 2.0'
